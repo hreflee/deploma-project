@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.inputFrame{
+	height: 22px; 
+	width: 100px;
+	background-color:#fffacd;
+}
+
+.inputLabel {
+	font-family:宋体;
+	color:black;
+	font-size:16px;
+}
+
+.tips {
+	font-family:宋体;
+	color:blue;
+	font-size:16px;
+}
+
+.alert {
+	font-family:宋体;
+	color:brown;
+	font-size:16px;
+}
+
+.button.gray{
+color: #8c96a0;
+text-shadow:1px 1px 1px #fff;
+border:1px solid #dce1e6;
+box-shadow: 0 1px 2px #fff inset,0 -1px 0 #a8abae inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: linear-gradient(top,#f2f3f7,#e4e8ec);
+}
+.button.black{
+border:1px solid #333;
+box-shadow: 0 1px 2px #8b8b8b inset,0 -1px 0 #3d3d3d inset,0 -2px 3px #8b8b8b inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#656565,#4c4c4c);
+background: -moz-linear-gradient(top,#656565,#4a4a4a);
+background: linear-gradient(top,#656565,#4a4a4a);
+}
+.button.red{
+border:1px solid #b42323;
+box-shadow: 0 1px 2px #e99494 inset,0 -1px 0 #954b4b inset,0 -2px 3px #e99494 inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#d53939,#b92929);
+background: -moz-linear-gradient(top,#d53939,#b92929);
+background: linear-gradient(top,#d53939,#b92929);
+}
+.button.yellow{
+border:1px solid #d2a000;
+box-shadow: 0 1px 2px #fedd71 inset,0 -1px 0 #a38b39 inset,0 -2px 3px #fedd71 inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#fece34,#d8a605);
+background: -moz-linear-gradient(top,#fece34,#d8a605);
+background: linear-gradient(top,#fece34,#d8a605);
+}
+.button.green{
+border:1px solid #64c878;
+box-shadow: 0 1px 2px #b9ecc4 inset,0 -1px 0 #6c9f76 inset,0 -2px 3px #b9ecc4 inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#90dfa2,#84d494);
+background: -moz-linear-gradient(top,#90dfa2,#84d494);
+background: linear-gradient(top,#90dfa2,#84d494);
+}
+.button.blue{
+border:1px solid #1e7db9;
+box-shadow: 0 1px 2px #8fcaee inset,0 -1px 0 #497897 inset,0 -2px 3px #8fcaee inset;
+font-family:   "宋体 "; 
+font-size:   14pt; 
+font-weight:bold;
+background: -webkit-linear-gradient(top,#42a4e0,#2e88c0);
+background: -moz-linear-gradient(top,#42a4e0,#2e88c0);
+background: linear-gradient(top,#42a4e0,#2e88c0);
+}
+     .container1
+     {
+         clear: both; /* 清除左右浮动 */  
+
+	width: 100px; /* 必须定义宽度 */  
+
+	word-break: break-word; /* 文本行的任意字内断开 */  
+
+	word-wrap: break-word; /* IE */  
+
+	white-space: -moz-pre-wrap; /* Mozilla */  
+
+	white-space: -hp-pre-wrap; /* HP printers */  
+
+	white-space: -o-pre-wrap; /* Opera 7 */  
+
+	white-space: -pre-wrap; /* Opera 4-6 */  
+
+	white-space: pre; /* CSS2 */  
+
+	white-space: pre-wrap; /* CSS 2.1 */  
+
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */  
+         font-family: "Courier New";
+		 font-size:x-large;
+         width: 600px;
+         height: 300px;
+         overflow: auto;
+         border: 1px solid black;
+         word-break: normal; 
+     }
+     
+     .container2
+     {
+         font-family: "Courier New";
+		 font-size:large;
+         width: 600px;
+         height: 30px;
+         overflow: auto;
+         border: 1px solid black;
+     }		
+
+     .LockOff {
+         display: none; 
+         visibility: hidden; 
+      } 
+
+      .LockOn { 
+         display: block; 
+         visibility: visible; 
+         position:absolute; 
+         z-index: 1; 
+         top: 0px; 
+         left: 0px; 
+         width: 100%; 
+         height: 100%; 
+         background-color: #ccc; 
+         text-align: center; 
+         padding-top: 20%; 
+         filter: alpha(opacity=75); 
+         opacity: 0.75; 
+      } 
+	   
